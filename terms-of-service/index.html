@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Terms of Service | Jebal Marketing</title>
+  <meta name="description" content="Terms governing the use of Jebal Marketing&#x27;s website, digital marketing, advertising, analytics services, and technology integrations.">
+  <meta name="theme-color" content="#161616">
+  <link rel="canonical" href="https://jebalmarketing.com/terms-of-service">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --onyx-black: #161616;
+      --pure-white: #ffffff;
+      --alpine-teal: #32A886;
+      --alpine-teal-glow: #42dbae;
+      --alpine-teal-light: rgba(50, 168, 134, 0.14);
+      --gray-border: rgba(255, 255, 255, 0.08);
+      --text-main: #ffffff;
+      --text-muted: #c8c8c2;
+      --text-dim: #787872;
+      --shadow-soft: 0 14px 38px rgba(0, 0, 0, 0.55);
+      --radius-lg: 22px;
+      --transition: all 0.3s ease;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      background: var(--onyx-black);
+      color-scheme: dark;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+      color: var(--text-main);
+      font-size: 15px;
+      line-height: 1.6;
+      background:
+        radial-gradient(ellipse at 80% 10%, rgba(50, 168, 134, 0.08) 0%, transparent 45%),
+        radial-gradient(ellipse at 20% 70%, rgba(255, 255, 255, 0.03) 0%, transparent 40%),
+        linear-gradient(135deg, #080808 0%, #161616 45%, #1e1e1e 100%);
+      background-attachment: fixed;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container { width: min(1080px, 92%); margin-inline: auto; }
+
+    .top-strip { height: 3.5px; background: linear-gradient(90deg, #161616, var(--alpine-teal), #161616); }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(22, 22, 22, 0.9);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--gray-border);
+    }
+
+    .header-inner { height: 66px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+    .brand { display: flex; align-items: center; gap: 12px; }
+
+    .brand-icon {
+      width: 38px;
+      height: 38px;
+      border: 2px solid var(--pure-white);
+      border-radius: 50%;
+      position: relative;
+      flex-shrink: 0;
+      box-shadow: 0 0 12px rgba(50, 168, 134, 0.35);
+    }
+
+    .brand-icon::before,
+    .brand-icon::after {
+      content: "";
+      position: absolute;
+      bottom: 8px;
+      transform: rotate(45deg);
+      border-left: 2.8px solid var(--pure-white);
+      border-top: 2.8px solid var(--pure-white);
+    }
+
+    .brand-icon::before { left: 7px; width: 14px; height: 14px; }
+    .brand-icon::after { right: 5px; width: 10px; height: 10px; }
+
+    .brand-copy b { display: block; font-size: 21px; font-weight: 900; line-height: 1; letter-spacing: -0.5px; }
+    .brand-copy small { display: block; font-size: 9.5px; font-weight: 800; letter-spacing: 2.8px; color: var(--alpine-teal); }
+
+    .header-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 18px;
+      border-radius: 99px;
+      background: var(--alpine-teal-light);
+      border: 1px solid rgba(50, 168, 134, 0.35);
+      color: var(--alpine-teal);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: var(--transition);
+    }
+
+    .header-cta:hover {
+      background: var(--alpine-teal);
+      color: #fff;
+      border-color: var(--alpine-teal-glow);
+      box-shadow: 0 4px 16px rgba(50, 168, 134, 0.4);
+    }
+
+    main { flex: 1; padding: clamp(40px, 7vw, 72px) 0 clamp(44px, 6vw, 68px); }
+
+    .legal-head { text-align: center; margin-bottom: 32px; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 14px;
+      border-radius: 99px;
+      background: rgba(50, 168, 134, 0.08);
+      border: 1px solid rgba(50, 168, 134, 0.28);
+      color: var(--alpine-teal);
+      font-size: 12.5px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .legal-head h1 {
+      font-size: clamp(28px, 4.6vw, 44px);
+      font-weight: 900;
+      line-height: 1.25;
+      letter-spacing: -0.5px;
+      margin-bottom: 14px;
+    }
+
+    .legal-rule {
+      width: 70px;
+      height: 4px;
+      border-radius: 99px;
+      margin: 0 auto;
+      background: var(--alpine-teal);
+      box-shadow: 0 0 16px rgba(50, 168, 134, 0.45);
+    }
+
+    .legal-card {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: clamp(22px, 4.5vw, 44px);
+      background: rgba(24, 24, 24, 0.82);
+      border: 1px solid var(--gray-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .legal-intro { color: var(--text-muted); font-size: clamp(14px, 1.8vw, 15.5px); font-weight: 500; }
+
+    .legal-section { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--gray-border); }
+
+    .legal-section h2 {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      font-size: clamp(17px, 2.2vw, 20px);
+      font-weight: 800;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .legal-section h2 span { color: var(--alpine-teal); }
+
+    .legal-section p { color: var(--text-muted); font-weight: 500; }
+    .legal-section p + p, .legal-section p + ul, .legal-section ul + p { margin-top: 10px; }
+
+    .legal-section ul { list-style: none; display: grid; gap: 8px; }
+
+    .legal-section li { position: relative; padding-left: 20px; color: var(--text-muted); font-weight: 500; }
+
+    .legal-section li::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 0.68em;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--alpine-teal);
+      box-shadow: 0 0 8px rgba(50, 168, 134, 0.5);
+    }
+
+    .legal-section a { color: var(--alpine-teal); font-weight: 700; overflow-wrap: anywhere; }
+    .legal-section a:hover { color: var(--alpine-teal-glow); }
+
+    .footer {
+      padding: 32px 0;
+      border-top: 1px solid var(--gray-border);
+      background: #0a0a0a;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 13px;
+    }
+
+    .footer-brand { color: var(--text-main); font-weight: 800; font-size: 16px; margin-bottom: 6px; display: block; }
+
+    .footer-legal { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 18px; margin-top: 12px; font-size: 12.5px; }
+    .footer-legal a { color: var(--text-dim); font-weight: 600; transition: var(--transition); }
+    .footer-legal a:hover, .footer-legal a[aria-current="page"] { color: var(--alpine-teal); }
+
+    @media (max-width: 768px) {
+      .header-inner { height: 60px; }
+    }
+
+    @media (max-width: 430px) {
+      .brand-copy b { font-size: 19px; }
+      .header-cta { padding: 6px 14px; font-size: 12.5px; }
+      .legal-section li { padding-left: 18px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top-strip" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Jebal Marketing home">
+        <div class="brand-icon" aria-hidden="true"></div>
+        <div class="brand-copy">
+          <b>چبال</b>
+          <small>JEBAL</small>
+        </div>
+      </a>
+
+      <a href="/" class="header-cta">
+        <span aria-hidden="true">&larr;</span>
+        <span>Back to Home</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="legal-head">
+        <span class="badge">Last Updated: October 3, 2026</span>
+        <h1>Terms of Service</h1>
+        <div class="legal-rule" aria-hidden="true"></div>
+      </div>
+
+      <article class="legal-card">
+        <p class="legal-intro">These Terms of Service govern the use of Jebal Marketing&#x27;s website, digital marketing services, advertising services, analytics services, and technology integrations.</p>
+        <section class="legal-section">
+          <h2><span>1.</span> Services</h2>
+          <p>Jebal Marketing provides digital marketing and related services, which may include advertising campaign management, marketing strategy, analytics, conversion measurement, reporting, optimization, and integrations with third-party advertising platforms.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>2.</span> Client Authorization</h2>
+          <p>Clients are responsible for ensuring that they have the necessary authority to grant Jebal Marketing access to advertising accounts, business assets, websites, analytics platforms, and other resources required to provide the requested services.</p>
+          <p>Jebal Marketing will only access client advertising accounts and related data when properly authorized.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>3.</span> Third-Party Platforms</h2>
+          <p>Our services may integrate with third-party platforms, including TikTok and other advertising, analytics, and technology providers.</p>
+          <p>Clients remain subject to the applicable terms, policies, and requirements of those third-party platforms.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>4.</span> Advertising and API Integrations</h2>
+          <p>Where authorized, Jebal Marketing may use APIs provided by advertising platforms for legitimate business purposes including:</p>
+          <ul>
+            <li>Advertising account integration</li>
+            <li>Campaign management</li>
+            <li>Campaign analytics</li>
+            <li>Conversion measurement</li>
+            <li>Performance reporting</li>
+            <li>Campaign optimization</li>
+          </ul>
+        </section>
+        <section class="legal-section">
+          <h2><span>5.</span> Acceptable Use</h2>
+          <p>Our services must not be used for unlawful, fraudulent, deceptive, abusive, or unauthorized activities or in violation of applicable third-party platform policies.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>6.</span> Account Security</h2>
+          <p>Clients are responsible for maintaining appropriate security over their accounts, credentials, and business assets and for notifying Jebal Marketing of relevant suspected unauthorized access.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>7.</span> Third-Party Service Availability</h2>
+          <p>Jebal Marketing does not control third-party advertising platforms and cannot guarantee their uninterrupted availability.</p>
+          <p>Platform outages, technical changes, policy changes, account restrictions, or decisions made independently by third-party platforms are outside Jebal Marketing&#x27;s direct control.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>8.</span> Service Changes</h2>
+          <p>Jebal Marketing may update its services when reasonably necessary to improve functionality, security, compliance, or service quality.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>9.</span> Limitation of Liability</h2>
+          <p>To the extent permitted by applicable law, Jebal Marketing will not be responsible for indirect or consequential losses resulting from third-party platforms, external services, or circumstances outside our reasonable control.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>10.</span> Changes to These Terms</h2>
+          <p>These Terms of Service may be updated periodically. The latest version will be made available on this page.</p>
+        </section>
+        <section class="legal-section">
+          <h2><span>11.</span> Contact</h2>
+          <p>For questions regarding these Terms of Service, contact:</p>
+          <p><strong>Jebal Marketing</strong></p>
+          <p>Email: <a href="mailto:info@jebalmarketing.com">info@jebalmarketing.com</a></p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="footer-brand">چبال | JEBAL</span>
+      <p>&copy; 2026 Jebal Marketing. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-service" aria-current="page">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
